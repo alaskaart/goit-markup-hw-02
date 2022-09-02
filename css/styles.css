@@ -117,7 +117,7 @@ letter-spacing: 0.03em;
 /* button */
 .button {
     color: var(--title-text-color);
-    background-color: var(--primary-white-color);\
+    background-color: var(--primary-white-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
