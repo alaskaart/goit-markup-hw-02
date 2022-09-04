@@ -1,3 +1,19 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --secondary-color: #F5F4FA;
+    --transparent-white-color: rgba(255, 255, 255, 0.6)
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+}
 
 .list {
     list-style: none;
@@ -51,7 +67,7 @@
 }
 
 .contact-nav .adress-link {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -101,7 +117,7 @@ letter-spacing: 0.03em;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18x;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -128,6 +144,13 @@ letter-spacing: 0.03em;
 .button.primary {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* footer */
@@ -148,10 +171,10 @@ letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.contact-footer .link:hover,
-.contact-footer .link:focus {
-    color: var(--primary-white-color)
+.contact-footer .address {
+    color: var(--primary-white-color);
 }
+
 
 /* portfolio main */
 
